@@ -1,0 +1,10 @@
+Step 1: Write Your kata
+
+hello world
+//write a function 
+//function to split the string
+['hello','world]
+//iterate through the string and remove the first letter 
+['hello'] =['ello']
+splice(index,1)
+//we join("") the string back together
