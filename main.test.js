@@ -5,8 +5,8 @@ import { secretLanguage } from "./main.js"
 describe(`secret sentence`, () =>{
 test('checking your new sentence', ()=>{
     //arrange
-        const sentence ='Hello there';
-        const expected ='ello here';
+        const sentence ='Hello there ! 5';
+        const expected ='ello here ! 5';
     //act
         const actual = secretLanguage(sentence)
     //assert
