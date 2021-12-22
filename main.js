@@ -8,6 +8,25 @@
 //e.g `Dont forget the PCR test` = `ont orget he CR est`
 
 //👉 Write the function your CodeWarriors will start with below here:
-function secretLanguage(string){
-    
+export function secretLanguage(string){
+    let newString = string.split(" ");
+    console.log(newString)
+    for(let i = 0; i<newString.length; i++){
+let output = newString[i].split("").splice(1, newString[i].length-1).join("")
+//let final = output.join(" ")
+return output 
+
+    }
 }
+
+secretLanguage("monday morning")
+/*Step 1: Write Your kata
+
+hello world
+//write a function 
+//function to split the string
+['hello','world]
+//iterate through the string and remove the first letter 
+['hello'] =['ello']
+splice(index,1)
+//we join("") the string back together*/
